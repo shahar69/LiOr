@@ -1,11 +1,47 @@
 # LiOr
 
-This repository contains the baseline structure for the project.
+LiOr is an open-source platform designed to showcase simple development workflows. The project aims to provide a lightweight starting point that you can clone, extend, and run locally with minimal setup.
 
-## Directory Structure
+## Overview
 
-- `src/` - Main source code.
-- `tests/` - Test suites.
-- `docs/` - Documentation and resources.
+At its core, LiOr serves as a minimal example application intended for experimentation in the Codex environment. Although the repository currently contains only this documentation, future revisions will expand it into a small runnable project.
 
-Use these folders to organize code and documentation as the project grows.
+## Prerequisites
+
+Ensure that the following software is installed before proceeding:
+
+- **Git** – used to clone the repository.
+- **Node.js (version 14 or higher)** – required to run the example application.
+- **npm** – comes packaged with Node.js and is used to manage dependencies.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd LiOr
+   ```
+
+2. Install the dependencies (once a `package.json` file is available):
+
+   ```bash
+   npm install
+   ```
+
+   If no `package.json` is present yet, you can skip this step.
+
+## Usage
+
+After the dependencies are installed, start the development server with:
+
+```bash
+npm start
+```
+
+This command launches a server—usually accessible at `http://localhost:3000`—which will display a placeholder page until more functionality is added.
+
+## Contributing
+
+Contributions are welcome. Feel free to fork the repository and open a pull request to add features or improve the documentation.
+
