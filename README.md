@@ -1,4 +1,6 @@
 # LiOr
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+=======
 
 LiOr is an open-source platform designed to showcase simple development workflows. The project aims to provide a lightweight starting point that you can clone, extend, and run locally with minimal setup.
 
