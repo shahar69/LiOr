@@ -43,6 +43,17 @@ npm start
 
 This command launches a server—usually accessible at `http://localhost:3000`—which will display a placeholder page until more functionality is added.
 
+## Inventory CLI
+
+The repository includes `src/store_manager.py`, a simple command-line tool that stores product data in a JSON file. Use it to experiment with basic automation workflows:
+
+```bash
+# Add products from products.json to store.json
+python src/store_manager.py store.json --add products.json
+```
+
+The file `docs/automatic-store-tasks.md` outlines a roadmap for expanding this into a more robust automation platform.
+
 ## Contributing
 
 Contributions are welcome. Feel free to fork the repository and open a pull request to add features or improve the documentation.
